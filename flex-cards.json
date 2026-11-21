@@ -1,0 +1,861 @@
+{
+  "type": "flex",
+  "altText": "玻璃小工｜劉力兆 電子名片",
+  "contents": {
+    "type": "carousel",
+    "contents": [
+      {
+        "type": "bubble",
+        "size": "mega",
+        "styles": {
+          "body": {
+            "backgroundColor": "#111111"
+          },
+          "footer": {
+            "backgroundColor": "#111111"
+          }
+        },
+        "hero": {
+          "type": "image",
+          "url": "https://glazier.cardtaiwan.com/img/card1-v1.jpg",
+          "size": "full",
+          "aspectRatio": "3:4",
+          "aspectMode": "cover",
+          "action": {
+            "type": "uri",
+            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=page&u=https%3A%2F%2Fglazier.cardtaiwan.com%2F",
+            "label": "看名片 1/7"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "玻璃小工 GLAZIER　1/7",
+              "size": "xxs",
+              "color": "#9A9A9A",
+              "align": "center",
+              "wrap": true
+            }
+          ],
+          "spacing": "none",
+          "paddingAll": "8px"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "LINE 詢價",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "align": "center",
+                      "wrap": true
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "backgroundColor": "#D30005",
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#D30005",
+                  "action": {
+                    "type": "uri",
+                    "label": "LINE 詢價",
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=line&u=https%3A%2F%2Fline.me%2Fti%2Fp%2F~woooyaya0715"
+                  }
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "IG 作品",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "align": "center",
+                      "wrap": true
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "backgroundColor": "#1C1C1C",
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#333333",
+                  "action": {
+                    "type": "uri",
+                    "label": "IG 作品",
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=ig&u=https%3A%2F%2Fwww.instagram.com%2Fglazier_bruce%2F"
+                  }
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "看施工",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "align": "center",
+                      "wrap": true
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "backgroundColor": "#1C1C1C",
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#333333",
+                  "action": {
+                    "type": "uri",
+                    "label": "看施工",
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=tiktok&u=https%3A%2F%2Fwww.tiktok.com%2F%40woooyaya0715"
+                  }
+                }
+              ],
+              "spacing": "sm"
+            }
+          ],
+          "spacing": "sm",
+          "paddingAll": "10px"
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "mega",
+        "styles": {
+          "body": {
+            "backgroundColor": "#111111"
+          },
+          "footer": {
+            "backgroundColor": "#111111"
+          }
+        },
+        "hero": {
+          "type": "image",
+          "url": "https://glazier.cardtaiwan.com/img/card2-v1.jpg",
+          "size": "full",
+          "aspectRatio": "3:4",
+          "aspectMode": "cover",
+          "action": {
+            "type": "uri",
+            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=page&u=https%3A%2F%2Fglazier.cardtaiwan.com%2F",
+            "label": "看名片 2/7"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "玻璃小工 GLAZIER　2/7",
+              "size": "xxs",
+              "color": "#9A9A9A",
+              "align": "center",
+              "wrap": true
+            }
+          ],
+          "spacing": "none",
+          "paddingAll": "8px"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "LINE 詢價",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "align": "center",
+                      "wrap": true
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "backgroundColor": "#D30005",
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#D30005",
+                  "action": {
+                    "type": "uri",
+                    "label": "LINE 詢價",
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=line&u=https%3A%2F%2Fline.me%2Fti%2Fp%2F~woooyaya0715"
+                  }
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "IG 作品",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "align": "center",
+                      "wrap": true
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "backgroundColor": "#1C1C1C",
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#333333",
+                  "action": {
+                    "type": "uri",
+                    "label": "IG 作品",
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=ig&u=https%3A%2F%2Fwww.instagram.com%2Fglazier_bruce%2F"
+                  }
+                }
+              ],
+              "spacing": "sm"
+            }
+          ],
+          "spacing": "sm",
+          "paddingAll": "10px"
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "mega",
+        "styles": {
+          "body": {
+            "backgroundColor": "#111111"
+          },
+          "footer": {
+            "backgroundColor": "#111111"
+          }
+        },
+        "hero": {
+          "type": "image",
+          "url": "https://glazier.cardtaiwan.com/img/card3-v1.jpg",
+          "size": "full",
+          "aspectRatio": "3:4",
+          "aspectMode": "cover",
+          "action": {
+            "type": "uri",
+            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=page&u=https%3A%2F%2Fglazier.cardtaiwan.com%2F",
+            "label": "看名片 3/7"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "玻璃小工 GLAZIER　3/7",
+              "size": "xxs",
+              "color": "#9A9A9A",
+              "align": "center",
+              "wrap": true
+            }
+          ],
+          "spacing": "none",
+          "paddingAll": "8px"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "LINE 詢價",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "align": "center",
+                      "wrap": true
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "backgroundColor": "#D30005",
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#D30005",
+                  "action": {
+                    "type": "uri",
+                    "label": "LINE 詢價",
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=line&u=https%3A%2F%2Fline.me%2Fti%2Fp%2F~woooyaya0715"
+                  }
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "IG 作品",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "align": "center",
+                      "wrap": true
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "backgroundColor": "#1C1C1C",
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#333333",
+                  "action": {
+                    "type": "uri",
+                    "label": "IG 作品",
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=ig&u=https%3A%2F%2Fwww.instagram.com%2Fglazier_bruce%2F"
+                  }
+                }
+              ],
+              "spacing": "sm"
+            }
+          ],
+          "spacing": "sm",
+          "paddingAll": "10px"
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "mega",
+        "styles": {
+          "body": {
+            "backgroundColor": "#111111"
+          },
+          "footer": {
+            "backgroundColor": "#111111"
+          }
+        },
+        "hero": {
+          "type": "image",
+          "url": "https://glazier.cardtaiwan.com/img/card4-v1.jpg",
+          "size": "full",
+          "aspectRatio": "3:4",
+          "aspectMode": "cover",
+          "action": {
+            "type": "uri",
+            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=page&u=https%3A%2F%2Fglazier.cardtaiwan.com%2F",
+            "label": "看名片 4/7"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "玻璃小工 GLAZIER　4/7",
+              "size": "xxs",
+              "color": "#9A9A9A",
+              "align": "center",
+              "wrap": true
+            }
+          ],
+          "spacing": "none",
+          "paddingAll": "8px"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "LINE 詢價",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "align": "center",
+                      "wrap": true
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "backgroundColor": "#D30005",
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#D30005",
+                  "action": {
+                    "type": "uri",
+                    "label": "LINE 詢價",
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=line&u=https%3A%2F%2Fline.me%2Fti%2Fp%2F~woooyaya0715"
+                  }
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "IG 作品",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "align": "center",
+                      "wrap": true
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "backgroundColor": "#1C1C1C",
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#333333",
+                  "action": {
+                    "type": "uri",
+                    "label": "IG 作品",
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=ig&u=https%3A%2F%2Fwww.instagram.com%2Fglazier_bruce%2F"
+                  }
+                }
+              ],
+              "spacing": "sm"
+            }
+          ],
+          "spacing": "sm",
+          "paddingAll": "10px"
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "mega",
+        "styles": {
+          "body": {
+            "backgroundColor": "#111111"
+          },
+          "footer": {
+            "backgroundColor": "#111111"
+          }
+        },
+        "hero": {
+          "type": "image",
+          "url": "https://glazier.cardtaiwan.com/img/card5-v1.jpg",
+          "size": "full",
+          "aspectRatio": "3:4",
+          "aspectMode": "cover",
+          "action": {
+            "type": "uri",
+            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=page&u=https%3A%2F%2Fglazier.cardtaiwan.com%2F",
+            "label": "看名片 5/7"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "玻璃小工 GLAZIER　5/7",
+              "size": "xxs",
+              "color": "#9A9A9A",
+              "align": "center",
+              "wrap": true
+            }
+          ],
+          "spacing": "none",
+          "paddingAll": "8px"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "LINE 詢價",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "align": "center",
+                      "wrap": true
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "backgroundColor": "#D30005",
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#D30005",
+                  "action": {
+                    "type": "uri",
+                    "label": "LINE 詢價",
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=line&u=https%3A%2F%2Fline.me%2Fti%2Fp%2F~woooyaya0715"
+                  }
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "IG 作品",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "align": "center",
+                      "wrap": true
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "backgroundColor": "#1C1C1C",
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#333333",
+                  "action": {
+                    "type": "uri",
+                    "label": "IG 作品",
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=ig&u=https%3A%2F%2Fwww.instagram.com%2Fglazier_bruce%2F"
+                  }
+                }
+              ],
+              "spacing": "sm"
+            }
+          ],
+          "spacing": "sm",
+          "paddingAll": "10px"
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "mega",
+        "styles": {
+          "body": {
+            "backgroundColor": "#111111"
+          },
+          "footer": {
+            "backgroundColor": "#111111"
+          }
+        },
+        "hero": {
+          "type": "image",
+          "url": "https://glazier.cardtaiwan.com/img/card6-v1.jpg",
+          "size": "full",
+          "aspectRatio": "3:4",
+          "aspectMode": "cover",
+          "action": {
+            "type": "uri",
+            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=page&u=https%3A%2F%2Fglazier.cardtaiwan.com%2F",
+            "label": "看名片 6/7"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "玻璃小工 GLAZIER　6/7",
+              "size": "xxs",
+              "color": "#9A9A9A",
+              "align": "center",
+              "wrap": true
+            }
+          ],
+          "spacing": "none",
+          "paddingAll": "8px"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "LINE 詢價",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "align": "center",
+                      "wrap": true
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "backgroundColor": "#D30005",
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#D30005",
+                  "action": {
+                    "type": "uri",
+                    "label": "LINE 詢價",
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=line&u=https%3A%2F%2Fline.me%2Fti%2Fp%2F~woooyaya0715"
+                  }
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "IG 作品",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "align": "center",
+                      "wrap": true
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "backgroundColor": "#1C1C1C",
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#333333",
+                  "action": {
+                    "type": "uri",
+                    "label": "IG 作品",
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=ig&u=https%3A%2F%2Fwww.instagram.com%2Fglazier_bruce%2F"
+                  }
+                }
+              ],
+              "spacing": "sm"
+            }
+          ],
+          "spacing": "sm",
+          "paddingAll": "10px"
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "mega",
+        "styles": {
+          "body": {
+            "backgroundColor": "#111111"
+          },
+          "footer": {
+            "backgroundColor": "#111111"
+          }
+        },
+        "hero": {
+          "type": "image",
+          "url": "https://glazier.cardtaiwan.com/img/card7-v1.jpg",
+          "size": "full",
+          "aspectRatio": "3:4",
+          "aspectMode": "cover",
+          "action": {
+            "type": "uri",
+            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=page&u=https%3A%2F%2Fglazier.cardtaiwan.com%2F",
+            "label": "看名片 7/7"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "玻璃小工 GLAZIER　7/7",
+              "size": "xxs",
+              "color": "#9A9A9A",
+              "align": "center",
+              "wrap": true
+            }
+          ],
+          "spacing": "none",
+          "paddingAll": "8px"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "LINE 詢價",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "align": "center",
+                      "wrap": true
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "backgroundColor": "#D30005",
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#D30005",
+                  "action": {
+                    "type": "uri",
+                    "label": "LINE 詢價",
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=line&u=https%3A%2F%2Fline.me%2Fti%2Fp%2F~woooyaya0715"
+                  }
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "IG 作品",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "align": "center",
+                      "wrap": true
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "backgroundColor": "#1C1C1C",
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#333333",
+                  "action": {
+                    "type": "uri",
+                    "label": "IG 作品",
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=ig&u=https%3A%2F%2Fwww.instagram.com%2Fglazier_bruce%2F"
+                  }
+                }
+              ],
+              "spacing": "sm"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "看施工",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "align": "center",
+                      "wrap": true
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "backgroundColor": "#1C1C1C",
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#333333",
+                  "action": {
+                    "type": "uri",
+                    "label": "看施工",
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=tiktok&u=https%3A%2F%2Fwww.tiktok.com%2F%40woooyaya0715"
+                  }
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "導航",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "align": "center",
+                      "wrap": true
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "backgroundColor": "#1C1C1C",
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#333333",
+                  "action": {
+                    "type": "uri",
+                    "label": "導航",
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=map&u=https%3A%2F%2Fwww.google.com%2Fmaps%2Fsearch%2F%3Fapi%3D1%26query%3D%25E7%258E%25BB%25E7%2592%2583%25E5%25B0%258F%25E5%25B7%25A5%2520%25E6%2596%25B0%25E5%258C%2597%25E5%25B8%2582%25E4%25B8%2589%25E5%25B3%25BD%25E5%258D%2580%25E4%25B8%25AD%25E6%25AD%25A3%25E8%25B7%25AF1%25E6%25AE%25B5292%25E5%25B7%25B719%25E5%25BC%25842%25E8%2599%259F"
+                  }
+                }
+              ],
+              "spacing": "sm",
+              "margin": "sm"
+            }
+          ],
+          "spacing": "sm",
+          "paddingAll": "10px"
+        }
+      }
+    ]
+  }
+}
