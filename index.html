@@ -1682,6 +1682,33 @@ async function autoShare(){
   }
 }
 
+/* 外部瀏覽器（電腦／Safari／Chrome，不在 LINE 裡）：分享選擇器不可能運作。
+   不退回系統分享選單（送出去會變成連結、不是原生卡片），改顯示一顆真正的連結讓使用者自己點。 */
+function showOpenInLineLite(){
+  try{
+    document.documentElement.classList.add('share-mode');
+    const old = document.getElementById('shareLite'); if(old) old.remove();
+    const d = document.createElement('div');
+    d.id = 'shareLite';
+    d.setAttribute('style','position:fixed;left:0;right:0;bottom:0;z-index:9999;background:#111111;'
+      + 'border-top:3px solid #D30005;padding:16px 18px 20px;color:#fff;text-align:center;'
+      + 'font-family:"Noto Sans TC","Microsoft JhengHei",sans-serif');
+    d.innerHTML = '<div style="font-size:14px;font-weight:800;line-height:1.7;margin-bottom:12px">'
+      + '這個分享功能只能在 LINE 裡使用。<br>按下面按鈕會用 LINE 開啟，就能選朋友送出名片。</div>'
+      + '<a href="' + SHARE_URL + '" rel="noopener" style="display:block;background:#D30005;color:#fff;'
+      + 'font-weight:900;font-size:16px;padding:14px;text-decoration:none">💬 用 LINE 開啟並分享</a>'
+      + '<button id="shareLiteCopy" style="margin-top:10px;width:100%;background:#1C1C1C;color:#fff;'
+      + 'border:1px solid #333;font-weight:800;font-size:14px;padding:12px;cursor:pointer">🔗 複製名片網址</button>';
+    document.body.appendChild(d);
+    const c = document.getElementById('shareLiteCopy');
+    if(c) c.onclick = function(){
+      try{ navigator.clipboard.writeText(CLEAN_URL); c.textContent = '✅ 已複製：' + CLEAN_URL; }
+      catch(e){ c.textContent = CLEAN_URL; }
+    };
+    diag('偵測到外部瀏覽器（非 LINE）→ 顯示「用 LINE 開啟並分享」');
+  }catch(e){}
+}
+
 async function shareCard(){
   diag('👆 分享按鈕被按下（' + new Date().toLocaleTimeString() + '）');
   const tip = document.getElementById('tipText');
@@ -1732,6 +1759,13 @@ async function shareCard(){
     navLastAt = Date.now();
     diag('看名片模式 → 導覽到分享專用網址 ' + SHARE_URL);
     location.href = SHARE_URL;
+    return;
+  }
+
+  // 0.5) 不在 LINE 內（電腦／一般瀏覽器）：選擇器不可能運作，給一顆真正可點的連結，
+  //      不要讓按鈕完全沒反應（iOS Universal Link 只認真人點擊，location.href 不會啟動 LINE）
+  if(!liffReady && !inLineApp){
+    showOpenInLineLite();
     return;
   }
 
