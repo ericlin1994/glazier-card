@@ -142,9 +142,13 @@
   .stats b{display:block;font-family:var(--en);font-weight:900;font-size:clamp(52px,16vw,88px);line-height:.92;letter-spacing:-.02em}
   .stats span{display:block;margin-top:10px;font-size:15px;font-weight:700}
 
-  /* ── 作品案例（目前無照片） ── */
-  .works{display:flex;align-items:center;justify-content:center;min-height:180px;border:2px solid var(--ink);
-        font-size:16px;font-weight:900;text-align:center;padding:20px}
+  /* ── 作品案例 ── */
+  .works{display:grid;grid-template-columns:minmax(0,1fr);gap:14px}
+  .works figure{margin:0;position:relative;background:#e6e6e6;overflow:hidden}
+  .works img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover}
+  .works figcaption{position:absolute;left:0;bottom:0;background:#D30005;color:#fff;
+        font-size:12px;font-weight:900;letter-spacing:.06em;padding:7px 12px}
+  @media(min-width:760px){.works{grid-template-columns:repeat(2,minmax(0,1fr))}}
 
   /* ── 聯絡資訊 ── */
   .visit-grid{display:grid;grid-template-columns:minmax(0,1fr);row-gap:36px}
@@ -386,7 +390,14 @@
     <div class="in">
       <h2 class="sec-title"><span class="en">Works</span><em>作品案例</em></h2>
       <p class="lead-sub" style="margin-bottom:24px">實際施作案例（淋浴拉門、玻璃安裝、烤漆玻璃）</p>
-      <div class="works">作品案例照片待補</div>
+      <div class="works">
+        <figure><img src="case1.jpg" alt="淋浴拉門施作" loading="lazy"><figcaption>淋浴拉門・透明玻璃</figcaption></figure>
+        <figure><img src="case2.jpg" alt="淋浴拉門施作" loading="lazy"><figcaption>淋浴拉門・黑框</figcaption></figure>
+        <figure><img src="case3.jpg" alt="玻璃扶手施作" loading="lazy"><figcaption>玻璃扶手</figcaption></figure>
+        <figure><img src="case4.jpg" alt="烤漆玻璃施作" loading="lazy"><figcaption>烤漆玻璃・廚房</figcaption></figure>
+        <figure><img src="case5.jpg" alt="商業空間玻璃隔間" loading="lazy"><figcaption>商空玻璃隔間</figcaption></figure>
+        <figure><img src="case6.jpg" alt="烤漆玻璃施作" loading="lazy"><figcaption>烤漆玻璃・爐具牆</figcaption></figure>
+      </div>
     </div>
   </section>
 
