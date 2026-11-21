@@ -2971,15 +2971,27 @@ bindRail();
 </script>
 <!--VIEW_TRACK_END-->
 <script>
-/* ── 作品案例：點圖放大 ＋ 左右輪播（自帶樣式，不影響其他區塊） ── */
+/* ── 照片放大 ＋ 左右輪播：作品案例（6 張）與名片卡（7 張）各一組 ── */
 (function(){
-  var figs = [].slice.call(document.querySelectorAll('.works figure'));
-  if(!figs.length) return;
-  var data = figs.map(function(f){
-    var im = f.querySelector('img'), cp = f.querySelector('figcaption');
-    return { src: im.getAttribute('src'), cap: cp ? cp.textContent : '' };
-  });
-  var i = 0, lb, imgEl, capEl, cntEl;
+  function collect(sel, map){
+    return [].slice.call(document.querySelectorAll(sel)).map(map)
+      .filter(function(x){ return x && x.src; });
+  }
+  var nCards = document.querySelectorAll('.rail .cardimg').length;
+  var groups = {
+    works: collect('.works figure', function(f, n){
+      var im = f.querySelector('img'), cp = f.querySelector('figcaption');
+      return { el: f, src: im.getAttribute('src'), cap: cp ? cp.textContent : '' };
+    }),
+    cards: collect('.rail .cardimg', function(a, n){
+      var im = a.querySelector('img');
+      return { el: a, src: a.getAttribute('href') || (im && im.getAttribute('src')),
+               cap: '名片卡 ' + (n + 1) + ' / ' + nCards };
+    })
+  };
+  if(!groups.works.length && !groups.cards.length) return;
+
+  var cur = null, i = 0, lb, imgEl, capEl, cntEl;
 
   function mk(tag, style, html){
     var e = document.createElement(tag);
@@ -2988,19 +3000,28 @@ bindRail();
     return e;
   }
   function show(n){
-    i = (n + data.length) % data.length;
-    imgEl.src = data[i].src;
-    capEl.textContent = data[i].cap;
-    cntEl.textContent = (i + 1) + ' / ' + data.length;
+    i = (n + cur.length) % cur.length;
+    imgEl.src = cur[i].src;
+    capEl.textContent = cur[i].cap;
+    cntEl.textContent = (i + 1) + ' / ' + cur.length;
   }
-  function open(n){ show(n); lb.style.display = 'flex'; document.documentElement.style.overflow = 'hidden'; }
-  function close(){ lb.style.display = 'none'; document.documentElement.style.overflow = ''; }
+  function open(g, n){
+    cur = groups[g];
+    if(!cur || !cur.length) return;
+    show(n);
+    lb.style.display = 'flex';
+    document.documentElement.style.overflow = 'hidden';
+  }
+  function close(){
+    lb.style.display = 'none';
+    document.documentElement.style.overflow = '';
+  }
 
   lb = mk('div','position:fixed;inset:0;z-index:2147483000;background:#000;display:none;'
         + 'flex-direction:column;align-items:center;justify-content:center;padding:16px;'
         + 'font-family:"Noto Sans TC","Microsoft JhengHei",sans-serif');
   cntEl = mk('div','color:#9a9a9a;font-size:12px;font-weight:900;letter-spacing:.12em;margin-bottom:10px');
-  imgEl = mk('img','max-width:100%;max-height:72vh;object-fit:contain;display:block;background:#1a1a1a');
+  imgEl = mk('img','max-width:100%;max-height:72vh;object-fit:contain;display:block;background:#111');
   capEl = mk('div','color:#fff;font-size:14px;font-weight:800;margin-top:14px;text-align:center');
   lb.appendChild(cntEl); lb.appendChild(imgEl); lb.appendChild(capEl);
   lb.id = 'lb';
@@ -3008,11 +3029,11 @@ bindRail();
   var bst = 'position:fixed;top:50%;transform:translateY(-50%);width:52px;height:52px;border-radius:50%;'
           + 'border:0;background:rgba(255,255,255,.14);color:#fff;font-size:26px;font-weight:900;'
           + 'cursor:pointer;line-height:1;padding:0';
-  var prev = mk('button', bst + ';left:12px', '‹');
-  var next = mk('button', bst + ';right:12px', '›');
+  var prev = mk('button', bst + ';left:12px', '\u2039');
+  var next = mk('button', bst + ';right:12px', '\u203a');
   var cls  = mk('button','position:fixed;top:14px;right:14px;width:44px;height:44px;border-radius:50%;'
           + 'border:0;background:rgba(255,255,255,.14);color:#fff;font-size:20px;font-weight:900;'
-          + 'cursor:pointer;line-height:1;padding:0', '✕');
+          + 'cursor:pointer;line-height:1;padding:0', '\u2715');
   prev.onclick = function(e){ e.stopPropagation(); show(i - 1); };
   next.onclick = function(e){ e.stopPropagation(); show(i + 1); };
   cls.onclick  = function(e){ e.stopPropagation(); close(); };
@@ -3035,9 +3056,14 @@ bindRail();
   }, {passive:true});
 
   document.body.appendChild(lb);
-  figs.forEach(function(f, n){
-    f.style.cursor = 'zoom-in';
-    f.addEventListener('click', function(){ open(n); });
+
+  groups.works.forEach(function(item, n){
+    item.el.style.cursor = 'zoom-in';
+    item.el.addEventListener('click', function(e){ e.preventDefault(); open('works', n); });
+  });
+  groups.cards.forEach(function(item, n){
+    item.el.style.cursor = 'zoom-in';
+    item.el.addEventListener('click', function(e){ e.preventDefault(); open('cards', n); });
   });
 })();
 </script>
