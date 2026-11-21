@@ -145,7 +145,7 @@
   /* ── 作品案例 ── */
   .works{display:grid;grid-template-columns:minmax(0,1fr);gap:14px}
   .works figure{margin:0;position:relative;background:#e6e6e6;overflow:hidden}
-  .works img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover}
+  .works img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;cursor:zoom-in}
   .works figcaption{position:absolute;left:0;bottom:0;background:#D30005;color:#fff;
         font-size:12px;font-weight:900;letter-spacing:.06em;padding:7px 12px}
   @media(min-width:760px){.works{grid-template-columns:repeat(2,minmax(0,1fr))}}
@@ -2970,5 +2970,76 @@ bindRail();
 })();
 </script>
 <!--VIEW_TRACK_END-->
+<script>
+/* ── 作品案例：點圖放大 ＋ 左右輪播（自帶樣式，不影響其他區塊） ── */
+(function(){
+  var figs = [].slice.call(document.querySelectorAll('.works figure'));
+  if(!figs.length) return;
+  var data = figs.map(function(f){
+    var im = f.querySelector('img'), cp = f.querySelector('figcaption');
+    return { src: im.getAttribute('src'), cap: cp ? cp.textContent : '' };
+  });
+  var i = 0, lb, imgEl, capEl, cntEl;
+
+  function mk(tag, style, html){
+    var e = document.createElement(tag);
+    e.setAttribute('style', style);
+    if(html != null) e.innerHTML = html;
+    return e;
+  }
+  function show(n){
+    i = (n + data.length) % data.length;
+    imgEl.src = data[i].src;
+    capEl.textContent = data[i].cap;
+    cntEl.textContent = (i + 1) + ' / ' + data.length;
+  }
+  function open(n){ show(n); lb.style.display = 'flex'; document.documentElement.style.overflow = 'hidden'; }
+  function close(){ lb.style.display = 'none'; document.documentElement.style.overflow = ''; }
+
+  lb = mk('div','position:fixed;inset:0;z-index:2147483000;background:#000;display:none;'
+        + 'flex-direction:column;align-items:center;justify-content:center;padding:16px;'
+        + 'font-family:"Noto Sans TC","Microsoft JhengHei",sans-serif');
+  cntEl = mk('div','color:#9a9a9a;font-size:12px;font-weight:900;letter-spacing:.12em;margin-bottom:10px');
+  imgEl = mk('img','max-width:100%;max-height:72vh;object-fit:contain;display:block;background:#1a1a1a');
+  capEl = mk('div','color:#fff;font-size:14px;font-weight:800;margin-top:14px;text-align:center');
+  lb.appendChild(cntEl); lb.appendChild(imgEl); lb.appendChild(capEl);
+  lb.id = 'lb';
+
+  var bst = 'position:fixed;top:50%;transform:translateY(-50%);width:52px;height:52px;border-radius:50%;'
+          + 'border:0;background:rgba(255,255,255,.14);color:#fff;font-size:26px;font-weight:900;'
+          + 'cursor:pointer;line-height:1;padding:0';
+  var prev = mk('button', bst + ';left:12px', '‹');
+  var next = mk('button', bst + ';right:12px', '›');
+  var cls  = mk('button','position:fixed;top:14px;right:14px;width:44px;height:44px;border-radius:50%;'
+          + 'border:0;background:rgba(255,255,255,.14);color:#fff;font-size:20px;font-weight:900;'
+          + 'cursor:pointer;line-height:1;padding:0', '✕');
+  prev.onclick = function(e){ e.stopPropagation(); show(i - 1); };
+  next.onclick = function(e){ e.stopPropagation(); show(i + 1); };
+  cls.onclick  = function(e){ e.stopPropagation(); close(); };
+  lb.appendChild(prev); lb.appendChild(next); lb.appendChild(cls);
+
+  lb.addEventListener('click', function(e){ if(e.target === lb || e.target === imgEl) close(); });
+  document.addEventListener('keydown', function(e){
+    if(lb.style.display !== 'flex') return;
+    if(e.key === 'Escape') close();
+    else if(e.key === 'ArrowLeft') show(i - 1);
+    else if(e.key === 'ArrowRight') show(i + 1);
+  });
+  var x0 = null;
+  lb.addEventListener('touchstart', function(e){ x0 = e.touches[0].clientX; }, {passive:true});
+  lb.addEventListener('touchend', function(e){
+    if(x0 === null) return;
+    var dx = e.changedTouches[0].clientX - x0;
+    if(Math.abs(dx) > 40) show(dx < 0 ? i + 1 : i - 1);
+    x0 = null;
+  }, {passive:true});
+
+  document.body.appendChild(lb);
+  figs.forEach(function(f, n){
+    f.style.cursor = 'zoom-in';
+    f.addEventListener('click', function(){ open(n); });
+  });
+})();
+</script>
 </body>
 </html>
