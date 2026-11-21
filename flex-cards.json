@@ -23,13 +23,15 @@
           "aspectMode": "cover",
           "action": {
             "type": "uri",
-            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=page&u=https%3A%2F%2Fglazier.cardtaiwan.com%2F",
-            "label": "看名片 1/7"
+            "label": "看名片 1/7",
+            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=page&u=https%3A%2F%2Fliff.line.me%2F2011946176-iofs9Cdi"
           }
         },
         "body": {
           "type": "box",
           "layout": "vertical",
+          "spacing": "none",
+          "paddingAll": "8px",
           "contents": [
             {
               "type": "text",
@@ -39,9 +41,7 @@
               "align": "center",
               "wrap": true
             }
-          ],
-          "spacing": "none",
-          "paddingAll": "8px"
+          ]
         },
         "footer": {
           "type": "box",
@@ -159,13 +159,15 @@
           "aspectMode": "cover",
           "action": {
             "type": "uri",
-            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=page&u=https%3A%2F%2Fglazier.cardtaiwan.com%2F",
-            "label": "看名片 2/7"
+            "label": "看名片 2/7",
+            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=page&u=https%3A%2F%2Fliff.line.me%2F2011946176-iofs9Cdi"
           }
         },
         "body": {
           "type": "box",
           "layout": "vertical",
+          "spacing": "none",
+          "paddingAll": "8px",
           "contents": [
             {
               "type": "text",
@@ -175,9 +177,7 @@
               "align": "center",
               "wrap": true
             }
-          ],
-          "spacing": "none",
-          "paddingAll": "8px"
+          ]
         },
         "footer": {
           "type": "box",
@@ -268,13 +268,15 @@
           "aspectMode": "cover",
           "action": {
             "type": "uri",
-            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=page&u=https%3A%2F%2Fglazier.cardtaiwan.com%2F",
-            "label": "看名片 3/7"
+            "label": "看名片 3/7",
+            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=page&u=https%3A%2F%2Fliff.line.me%2F2011946176-iofs9Cdi"
           }
         },
         "body": {
           "type": "box",
           "layout": "vertical",
+          "spacing": "none",
+          "paddingAll": "8px",
           "contents": [
             {
               "type": "text",
@@ -284,9 +286,7 @@
               "align": "center",
               "wrap": true
             }
-          ],
-          "spacing": "none",
-          "paddingAll": "8px"
+          ]
         },
         "footer": {
           "type": "box",
@@ -377,13 +377,15 @@
           "aspectMode": "cover",
           "action": {
             "type": "uri",
-            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=page&u=https%3A%2F%2Fglazier.cardtaiwan.com%2F",
-            "label": "看名片 4/7"
+            "label": "看名片 4/7",
+            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=page&u=https%3A%2F%2Fliff.line.me%2F2011946176-iofs9Cdi"
           }
         },
         "body": {
           "type": "box",
           "layout": "vertical",
+          "spacing": "none",
+          "paddingAll": "8px",
           "contents": [
             {
               "type": "text",
@@ -393,9 +395,7 @@
               "align": "center",
               "wrap": true
             }
-          ],
-          "spacing": "none",
-          "paddingAll": "8px"
+          ]
         },
         "footer": {
           "type": "box",
@@ -486,13 +486,15 @@
           "aspectMode": "cover",
           "action": {
             "type": "uri",
-            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=page&u=https%3A%2F%2Fglazier.cardtaiwan.com%2F",
-            "label": "看名片 5/7"
+            "label": "看名片 5/7",
+            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=page&u=https%3A%2F%2Fliff.line.me%2F2011946176-iofs9Cdi"
           }
         },
         "body": {
           "type": "box",
           "layout": "vertical",
+          "spacing": "none",
+          "paddingAll": "8px",
           "contents": [
             {
               "type": "text",
@@ -502,9 +504,7 @@
               "align": "center",
               "wrap": true
             }
-          ],
-          "spacing": "none",
-          "paddingAll": "8px"
+          ]
         },
         "footer": {
           "type": "box",
@@ -595,13 +595,15 @@
           "aspectMode": "cover",
           "action": {
             "type": "uri",
-            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=page&u=https%3A%2F%2Fglazier.cardtaiwan.com%2F",
-            "label": "看名片 6/7"
+            "label": "看名片 6/7",
+            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=page&u=https%3A%2F%2Fliff.line.me%2F2011946176-iofs9Cdi"
           }
         },
         "body": {
           "type": "box",
           "layout": "vertical",
+          "spacing": "none",
+          "paddingAll": "8px",
           "contents": [
             {
               "type": "text",
@@ -611,9 +613,7 @@
               "align": "center",
               "wrap": true
             }
-          ],
-          "spacing": "none",
-          "paddingAll": "8px"
+          ]
         },
         "footer": {
           "type": "box",
@@ -704,13 +704,15 @@
           "aspectMode": "cover",
           "action": {
             "type": "uri",
-            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=page&u=https%3A%2F%2Fglazier.cardtaiwan.com%2F",
-            "label": "看名片 7/7"
+            "label": "看名片 7/7",
+            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=page&u=https%3A%2F%2Fliff.line.me%2F2011946176-iofs9Cdi"
           }
         },
         "body": {
           "type": "box",
           "layout": "vertical",
+          "spacing": "none",
+          "paddingAll": "8px",
           "contents": [
             {
               "type": "text",
@@ -720,9 +722,7 @@
               "align": "center",
               "wrap": true
             }
-          ],
-          "spacing": "none",
-          "paddingAll": "8px"
+          ]
         },
         "footer": {
           "type": "box",

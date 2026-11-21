@@ -464,7 +464,7 @@ window.addEventListener('unhandledrejection', e =>
    ─ 需要：LINE Login channel + LIFF app，並在 Console 開啟 shareTargetPicker
    ─ 填入 LIFF_ID 後，在 LINE 內開啟本頁即可把「7 張原生卡片」分享給好友
    ══════════════════════════════════════════════════════════ */
-const LIFF_ID = '【請填入你的 LIFF ID（例：1234567890-AbCdEfGh）】';   // 由 client.json 的 links.liff 自動寫入
+const LIFF_ID = '2011946176-iofs9Cdi';   // 由 client.json 的 links.liff 自動寫入
 let liffReady = false, flexPayload = null;
 /* 乾淨網址（去掉 query 與 hash）。只給 liff.login 的 redirectUri 用：
    絕對不要把 location.href（可能含 liff.state）當 redirectUri —— LINE 會再把整個網址包一層
@@ -475,7 +475,7 @@ const CLEAN_URL = location.href.split('?')[0].split('#')[0];
 const SHARE_REDIRECT = CLEAN_URL + '?share=1';
 /* 這張名片自己的 LIFF 分享網址（不帶 src：template 是給所有客戶用的，LIFF_ID 由產生器寫入）。
    v 用來破 LINE 內建瀏覽器快取。 */
-const SHARE_URL = 'https://liff.line.me/' + LIFF_ID + '?share=1&v=2026-11-11b';
+const SHARE_URL = 'https://liff.line.me/' + LIFF_ID + '?share=1&v=2026-11-21-1930';
 let inPlaceInit = 0, liffInitP = null;   // 按分享時就地 liff.init 的狀態：0 未試／1 進行中／2 已試過（最多一次）
 let nestedSeen = ((function(){ try{ return decodeURIComponent(location.search); }catch(e){ return location.search; } })().match(/liff\.state/g) || []).length > 1;   // 這次載入時網址已被 LINE 疊加過
 let navLastAt = 0;                       // 上次導覽到分享頁的時間（節流）
@@ -514,13 +514,15 @@ const INLINE_FLEX = {
           "aspectMode": "cover",
           "action": {
             "type": "uri",
-            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=page&u=https%3A%2F%2Fglazier.cardtaiwan.com%2F",
-            "label": "看名片 1/7"
+            "label": "看名片 1/7",
+            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=page&u=https%3A%2F%2Fliff.line.me%2F2011946176-iofs9Cdi"
           }
         },
         "body": {
           "type": "box",
           "layout": "vertical",
+          "spacing": "none",
+          "paddingAll": "8px",
           "contents": [
             {
               "type": "text",
@@ -530,9 +532,7 @@ const INLINE_FLEX = {
               "align": "center",
               "wrap": true
             }
-          ],
-          "spacing": "none",
-          "paddingAll": "8px"
+          ]
         },
         "footer": {
           "type": "box",
@@ -650,13 +650,15 @@ const INLINE_FLEX = {
           "aspectMode": "cover",
           "action": {
             "type": "uri",
-            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=page&u=https%3A%2F%2Fglazier.cardtaiwan.com%2F",
-            "label": "看名片 2/7"
+            "label": "看名片 2/7",
+            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=page&u=https%3A%2F%2Fliff.line.me%2F2011946176-iofs9Cdi"
           }
         },
         "body": {
           "type": "box",
           "layout": "vertical",
+          "spacing": "none",
+          "paddingAll": "8px",
           "contents": [
             {
               "type": "text",
@@ -666,9 +668,7 @@ const INLINE_FLEX = {
               "align": "center",
               "wrap": true
             }
-          ],
-          "spacing": "none",
-          "paddingAll": "8px"
+          ]
         },
         "footer": {
           "type": "box",
@@ -759,13 +759,15 @@ const INLINE_FLEX = {
           "aspectMode": "cover",
           "action": {
             "type": "uri",
-            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=page&u=https%3A%2F%2Fglazier.cardtaiwan.com%2F",
-            "label": "看名片 3/7"
+            "label": "看名片 3/7",
+            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=page&u=https%3A%2F%2Fliff.line.me%2F2011946176-iofs9Cdi"
           }
         },
         "body": {
           "type": "box",
           "layout": "vertical",
+          "spacing": "none",
+          "paddingAll": "8px",
           "contents": [
             {
               "type": "text",
@@ -775,9 +777,7 @@ const INLINE_FLEX = {
               "align": "center",
               "wrap": true
             }
-          ],
-          "spacing": "none",
-          "paddingAll": "8px"
+          ]
         },
         "footer": {
           "type": "box",
@@ -868,13 +868,15 @@ const INLINE_FLEX = {
           "aspectMode": "cover",
           "action": {
             "type": "uri",
-            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=page&u=https%3A%2F%2Fglazier.cardtaiwan.com%2F",
-            "label": "看名片 4/7"
+            "label": "看名片 4/7",
+            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=page&u=https%3A%2F%2Fliff.line.me%2F2011946176-iofs9Cdi"
           }
         },
         "body": {
           "type": "box",
           "layout": "vertical",
+          "spacing": "none",
+          "paddingAll": "8px",
           "contents": [
             {
               "type": "text",
@@ -884,9 +886,7 @@ const INLINE_FLEX = {
               "align": "center",
               "wrap": true
             }
-          ],
-          "spacing": "none",
-          "paddingAll": "8px"
+          ]
         },
         "footer": {
           "type": "box",
@@ -977,13 +977,15 @@ const INLINE_FLEX = {
           "aspectMode": "cover",
           "action": {
             "type": "uri",
-            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=page&u=https%3A%2F%2Fglazier.cardtaiwan.com%2F",
-            "label": "看名片 5/7"
+            "label": "看名片 5/7",
+            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=page&u=https%3A%2F%2Fliff.line.me%2F2011946176-iofs9Cdi"
           }
         },
         "body": {
           "type": "box",
           "layout": "vertical",
+          "spacing": "none",
+          "paddingAll": "8px",
           "contents": [
             {
               "type": "text",
@@ -993,9 +995,7 @@ const INLINE_FLEX = {
               "align": "center",
               "wrap": true
             }
-          ],
-          "spacing": "none",
-          "paddingAll": "8px"
+          ]
         },
         "footer": {
           "type": "box",
@@ -1086,13 +1086,15 @@ const INLINE_FLEX = {
           "aspectMode": "cover",
           "action": {
             "type": "uri",
-            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=page&u=https%3A%2F%2Fglazier.cardtaiwan.com%2F",
-            "label": "看名片 6/7"
+            "label": "看名片 6/7",
+            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=page&u=https%3A%2F%2Fliff.line.me%2F2011946176-iofs9Cdi"
           }
         },
         "body": {
           "type": "box",
           "layout": "vertical",
+          "spacing": "none",
+          "paddingAll": "8px",
           "contents": [
             {
               "type": "text",
@@ -1102,9 +1104,7 @@ const INLINE_FLEX = {
               "align": "center",
               "wrap": true
             }
-          ],
-          "spacing": "none",
-          "paddingAll": "8px"
+          ]
         },
         "footer": {
           "type": "box",
@@ -1195,13 +1195,15 @@ const INLINE_FLEX = {
           "aspectMode": "cover",
           "action": {
             "type": "uri",
-            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=page&u=https%3A%2F%2Fglazier.cardtaiwan.com%2F",
-            "label": "看名片 7/7"
+            "label": "看名片 7/7",
+            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=page&u=https%3A%2F%2Fliff.line.me%2F2011946176-iofs9Cdi"
           }
         },
         "body": {
           "type": "box",
           "layout": "vertical",
+          "spacing": "none",
+          "paddingAll": "8px",
           "contents": [
             {
               "type": "text",
@@ -1211,9 +1213,7 @@ const INLINE_FLEX = {
               "align": "center",
               "wrap": true
             }
-          ],
-          "spacing": "none",
-          "paddingAll": "8px"
+          ]
         },
         "footer": {
           "type": "box",
