@@ -150,6 +150,20 @@
         font-size:12px;font-weight:900;letter-spacing:.06em;padding:7px 12px}
   @media(min-width:760px){.works{grid-template-columns:repeat(2,minmax(0,1fr))}}
 
+  /* ── 施工影片 ── */
+  .vids{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  .vcard{position:relative;display:block;padding:0;border:0;background:#000;cursor:pointer;
+        text-align:left;font-family:inherit;overflow:hidden;border-radius:0}
+  .vcard img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;opacity:.85}
+  .vcard .vplay{position:absolute;top:calc(50% - 22px);left:50%;transform:translate(-50%,-50%);
+        width:46px;height:46px;border-radius:50%;background:#D30005;color:#fff;font-size:16px;
+        line-height:46px;text-align:center;pointer-events:none}
+  .vcard em{display:block;padding:10px 10px 12px;background:#111;color:#fff;font-size:13px;
+        font-weight:800;font-style:normal;line-height:1.4}
+  .vmore{display:inline-block;margin-top:22px;border:2px solid #fff;color:#fff;font-weight:900;
+        font-size:14px;padding:12px 22px;text-decoration:none}
+  @media(min-width:760px){.vids{grid-template-columns:repeat(3,minmax(0,1fr))}}
+
   /* ── 聯絡資訊 ── */
   .visit-grid{display:grid;grid-template-columns:minmax(0,1fr);row-gap:36px}
   .cta-lines p{margin:0;font-size:clamp(24px,6.5vw,40px);font-weight:900;line-height:1.25}
@@ -411,6 +425,32 @@
         <figure><img src="case18.jpg" alt="玻璃櫥窗・店面施作" loading="lazy"><figcaption>玻璃櫥窗・店面</figcaption></figure>
         <figure><img src="case19.jpg" alt="玻璃層架・室內施作" loading="lazy"><figcaption>玻璃層架・室內</figcaption></figure>
       </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ 8b　施工影片 ═══════════ -->
+  <section class="blk dark">
+    <div class="in">
+      <h2 class="sec-title"><span class="en">Videos</span><em>施工影片</em></h2>
+      <p class="lead-sub" style="margin-bottom:24px">現場實作紀錄，點縮圖直接播放</p>
+      <div class="vids">
+        <button type="button" class="vcard" data-yt="y2NfRkto22M"><img src="https://i.ytimg.com/vi/y2NfRkto22M/hqdefault.jpg" alt="緩衝淋浴拉門・乾濕分離" loading="lazy"><span class="vplay">&#9654;</span><em>緩衝淋浴拉門・乾濕分離</em></button>
+        <button type="button" class="vcard" data-yt="YMdwSJ9TDQg"><img src="https://i.ytimg.com/vi/YMdwSJ9TDQg/hqdefault.jpg" alt="深淵鏡・全反射＋燈光" loading="lazy"><span class="vplay">&#9654;</span><em>深淵鏡・全反射＋燈光</em></button>
+        <button type="button" class="vcard" data-yt="-0BdPTt7rzU"><img src="https://i.ytimg.com/vi/-0BdPTt7rzU/hqdefault.jpg" alt="超透膠＋彎曲玻璃扶手" loading="lazy"><span class="vplay">&#9654;</span><em>超透膠＋彎曲玻璃扶手</em></button>
+        <button type="button" class="vcard" data-yt="iVgPFchaUoc"><img src="https://i.ytimg.com/vi/iVgPFchaUoc/hqdefault.jpg" alt="淋浴拉門施作現場" loading="lazy"><span class="vplay">&#9654;</span><em>淋浴拉門施作現場</em></button>
+        <button type="button" class="vcard" data-yt="WKwcnbnzH6s"><img src="https://i.ytimg.com/vi/WKwcnbnzH6s/hqdefault.jpg" alt="深淵鏡・展示空間" loading="lazy"><span class="vplay">&#9654;</span><em>深淵鏡・展示空間</em></button>
+        <button type="button" class="vcard" data-yt="btSm2STGyLY"><img src="https://i.ytimg.com/vi/btSm2STGyLY/hqdefault.jpg" alt="完美收尾的小物" loading="lazy"><span class="vplay">&#9654;</span><em>完美收尾的小物</em></button>
+        <button type="button" class="vcard" data-yt="G_lar3vYl9M"><img src="https://i.ytimg.com/vi/G_lar3vYl9M/hqdefault.jpg" alt="產能滿載的日常" loading="lazy"><span class="vplay">&#9654;</span><em>產能滿載的日常</em></button>
+        <button type="button" class="vcard" data-yt="GEEsslV7vv0"><img src="https://i.ytimg.com/vi/GEEsslV7vv0/hqdefault.jpg" alt="矽利康施作" loading="lazy"><span class="vplay">&#9654;</span><em>矽利康施作</em></button>
+        <button type="button" class="vcard" data-yt="RIJOWZLaSRI"><img src="https://i.ytimg.com/vi/RIJOWZLaSRI/hqdefault.jpg" alt="自製矽利康刮刀" loading="lazy"><span class="vplay">&#9654;</span><em>自製矽利康刮刀</em></button>
+        <button type="button" class="vcard" data-yt="lVJlTkGX0s8"><img src="https://i.ytimg.com/vi/lVJlTkGX0s8/hqdefault.jpg" alt="關於切矽利康頭" loading="lazy"><span class="vplay">&#9654;</span><em>關於切矽利康頭</em></button>
+        <button type="button" class="vcard" data-yt="SbsSk0-VI_Y"><img src="https://i.ytimg.com/vi/SbsSk0-VI_Y/hqdefault.jpg" alt="矽利康頭與槍的關係" loading="lazy"><span class="vplay">&#9654;</span><em>矽利康頭與槍的關係</em></button>
+        <button type="button" class="vcard" data-yt="_dLqcftdPmI"><img src="https://i.ytimg.com/vi/_dLqcftdPmI/hqdefault.jpg" alt="老師傅的刮刀製作" loading="lazy"><span class="vplay">&#9654;</span><em>老師傅的刮刀製作</em></button>
+        <button type="button" class="vcard" data-yt="h_YAilGOSMI"><img src="https://i.ytimg.com/vi/h_YAilGOSMI/hqdefault.jpg" alt="自製矽利康抹刀" loading="lazy"><span class="vplay">&#9654;</span><em>自製矽利康抹刀</em></button>
+        <button type="button" class="vcard" data-yt="8322ekOigas"><img src="https://i.ytimg.com/vi/8322ekOigas/hqdefault.jpg" alt="自己打矽膠自己拍" loading="lazy"><span class="vplay">&#9654;</span><em>自己打矽膠自己拍</em></button>
+        <button type="button" class="vcard" data-yt="NyYI3FhCDng"><img src="https://i.ytimg.com/vi/NyYI3FhCDng/hqdefault.jpg" alt="矽利康抹刀實作" loading="lazy"><span class="vplay">&#9654;</span><em>矽利康抹刀實作</em></button>
+      </div>
+      <a class="vmore" href="https://www.youtube.com/@woooyaya0715/videos" target="_blank" rel="noopener">看更多施工影片 &rarr;</a>
     </div>
   </section>
 
@@ -3079,6 +3119,57 @@ bindRail();
   groups.cards.forEach(function(item, n){
     item.el.style.cursor = 'zoom-in';
     item.el.addEventListener('click', function(e){ e.preventDefault(); open('cards', n); });
+  });
+})();
+</script>
+<script>
+/* ── 施工影片：點縮圖在頁面內播放（YouTube 官方嵌入，關閉時清掉 iframe） ── */
+(function(){
+  var cards = [].slice.call(document.querySelectorAll('.vcard'));
+  if(!cards.length) return;
+  function mk(tag, style, html){
+    var e = document.createElement(tag);
+    e.setAttribute('style', style);
+    if(html != null) e.innerHTML = html;
+    return e;
+  }
+  var ov = mk('div','position:fixed;inset:0;z-index:2147483001;background:#000;display:none;'
+        + 'flex-direction:column;align-items:center;justify-content:center;padding:16px;'
+        + 'font-family:"Noto Sans TC","Microsoft JhengHei",sans-serif');
+  ov.id = 'vov';
+  var wrap = mk('div','width:100%;max-width:900px;aspect-ratio:16/9;background:#000');
+  var fr = document.createElement('iframe');
+  fr.setAttribute('allow','accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
+  fr.setAttribute('allowfullscreen','');
+  fr.setAttribute('frameborder','0');
+  fr.setAttribute('style','width:100%;height:100%;border:0;display:block');
+  wrap.appendChild(fr);
+  var cap = mk('div','color:#fff;font-size:14px;font-weight:800;margin-top:14px;text-align:center');
+  var x = mk('button','position:fixed;top:14px;right:14px;width:44px;height:44px;border-radius:50%;'
+        + 'border:0;background:rgba(255,255,255,.14);color:#fff;font-size:20px;font-weight:900;'
+        + 'cursor:pointer;line-height:1;padding:0','\u2715');
+  x.onclick = function(){ closeV(); };
+  ov.appendChild(wrap); ov.appendChild(cap); ov.appendChild(x);
+  ov.addEventListener('click', function(e){ if(e.target === ov) closeV(); });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape' && ov.style.display === 'flex') closeV();
+  });
+  document.body.appendChild(ov);
+
+  function closeV(){
+    ov.style.display = 'none';
+    fr.src = 'about:blank';
+    document.documentElement.style.overflow = '';
+  }
+  cards.forEach(function(c){
+    c.addEventListener('click', function(){
+      var id = c.getAttribute('data-yt');
+      var t = c.querySelector('em');
+      fr.src = 'https://www.youtube-nocookie.com/embed/' + id + '?autoplay=1&rel=0&playsinline=1';
+      cap.textContent = t ? t.textContent : '';
+      ov.style.display = 'flex';
+      document.documentElement.style.overflow = 'hidden';
+    });
   });
 })();
 </script>
