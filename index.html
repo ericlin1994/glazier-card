@@ -307,7 +307,7 @@
         <a class="cardimg" href="img/card1-v1.jpg" target="_blank" rel="noopener"><img src="img/card1-v1.jpg" alt="玻璃小工名片卡 1／7" width="1080" height="1440"></a>
         <a class="cardimg" href="img/card2-v1.jpg" target="_blank" rel="noopener"><img src="img/card2-v1.jpg" alt="玻璃小工名片卡 2／7" width="1080" height="1440"></a>
         <a class="cardimg" href="img/card3-v1.jpg" target="_blank" rel="noopener"><img src="img/card3-v1.jpg" alt="玻璃小工名片卡 3／7" width="1080" height="1440"></a>
-        <a class="cardimg" href="img/card4-v1.jpg?v=2026-11-23-2153" target="_blank" rel="noopener"><img src="img/card4-v1.jpg?v=2026-11-23-2153" alt="玻璃小工名片卡 4／7" width="1080" height="1440"></a>
+        <a class="cardimg" href="img/card4-v1.jpg?v=2026-11-24-1416" target="_blank" rel="noopener"><img src="img/card4-v1.jpg?v=2026-11-24-1416" alt="玻璃小工名片卡 4／7" width="1080" height="1440"></a>
         <a class="cardimg" href="img/card5-v1.jpg" target="_blank" rel="noopener"><img src="img/card5-v1.jpg" alt="玻璃小工名片卡 5／7" width="1080" height="1440"></a>
         <a class="cardimg" href="img/card6-v1.jpg" target="_blank" rel="noopener"><img src="img/card6-v1.jpg" alt="玻璃小工名片卡 6／7" width="1080" height="1440"></a>
         <a class="cardimg" href="img/card7-v2.jpg" target="_blank" rel="noopener"><img src="img/card7-v2.jpg" alt="玻璃小工名片卡 7／7" width="1080" height="1440"></a>
@@ -541,7 +541,7 @@ const CLEAN_URL = location.href.split('?')[0].split('#')[0];
 const SHARE_REDIRECT = CLEAN_URL + '?share=1';
 /* 這張名片自己的 LIFF 分享網址（不帶 src：template 是給所有客戶用的，LIFF_ID 由產生器寫入）。
    v 用來破 LINE 內建瀏覽器快取。 */
-const SHARE_URL = 'https://liff.line.me/' + LIFF_ID + '?v=2026-11-23-2153#share=1';
+const SHARE_URL = 'https://liff.line.me/' + LIFF_ID + '?v=2026-11-24-1416#share=1';
 let inPlaceInit = 0, liffInitP = null;   // 按分享時就地 liff.init 的狀態：0 未試／1 進行中／2 已試過（最多一次）
 let nestedSeen = ((function(){ try{ return decodeURIComponent(location.search); }catch(e){ return location.search; } })().match(/liff\.state/g) || []).length > 1;   // 這次載入時網址已被 LINE 疊加過
 let navLastAt = 0;                       // 上次導覽到分享頁的時間（節流）
@@ -551,7 +551,7 @@ let payloadFailed = false;
 
 /* 改動 flex-cards.json 後請把 BUILD 往後跳一號：
    LINE 內建瀏覽器會快取檔案，不跳號會一直送出舊版卡片 */
-const BUILD = 'b57';
+const BUILD = 'b58';
 const PAGE_VER = '2026-10-09-1910-底部CTA改用flex-sticky'   // 每次改頁面就改這個，用來確認手機拿到的是最新版
 
 /* ═══════ FLEX_PAYLOAD_START（由 build_flex.py 自動寫入，勿手改）═══════ */
@@ -746,7 +746,7 @@ const INLINE_FLEX = {
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-23-2153&v=2026-11-23-2153#share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-23-2153"
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1416&v=2026-11-24-1416#share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1416"
                   }
                 }
               ],
@@ -953,7 +953,7 @@ const INLINE_FLEX = {
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-23-2153&v=2026-11-23-2153#share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-23-2153"
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1416&v=2026-11-24-1416#share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1416"
                   }
                 }
               ],
@@ -1160,7 +1160,7 @@ const INLINE_FLEX = {
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-23-2153&v=2026-11-23-2153#share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-23-2153"
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1416&v=2026-11-24-1416#share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1416"
                   }
                 }
               ],
@@ -1367,7 +1367,7 @@ const INLINE_FLEX = {
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-23-2153&v=2026-11-23-2153#share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-23-2153"
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1416&v=2026-11-24-1416#share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1416"
                   }
                 }
               ],
@@ -1378,7 +1378,7 @@ const INLINE_FLEX = {
         },
         "hero": {
           "type": "image",
-          "url": "https://glazier.cardtaiwan.com/img/card4-v1.jpg?v=2026-11-23-2153",
+          "url": "https://glazier.cardtaiwan.com/img/card4-v1.jpg?v=2026-11-24-1416",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover",
@@ -1574,7 +1574,7 @@ const INLINE_FLEX = {
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-23-2153&v=2026-11-23-2153#share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-23-2153"
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1416&v=2026-11-24-1416#share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1416"
                   }
                 }
               ],
@@ -1781,7 +1781,7 @@ const INLINE_FLEX = {
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-23-2153&v=2026-11-23-2153#share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-23-2153"
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1416&v=2026-11-24-1416#share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1416"
                   }
                 }
               ],
@@ -1988,7 +1988,7 @@ const INLINE_FLEX = {
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-23-2153&v=2026-11-23-2153#share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-23-2153"
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1416&v=2026-11-24-1416#share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1416"
                   }
                 }
               ],
