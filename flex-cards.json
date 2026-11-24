@@ -120,7 +120,14 @@
                     "label": "FB 作品",
                     "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=fb&u=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100087316002386"
                   }
-                },
+                }
+              ],
+              "spacing": "sm"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
                 {
                   "type": "box",
                   "layout": "vertical",
@@ -152,14 +159,7 @@
                     "label": "看施工（TikTok）",
                     "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=tiktok&u=https%3A%2F%2Fwww.tiktok.com%2F%40woooyaya0715"
                   }
-                }
-              ],
-              "spacing": "sm"
-            },
-            {
-              "type": "box",
-              "layout": "horizontal",
-              "contents": [
+                },
                 {
                   "type": "box",
                   "layout": "vertical",
@@ -189,7 +189,7 @@
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1435&v=2026-11-24-1435#share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1435"
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1637&v=2026-11-24-1637#share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1637"
                   }
                 }
               ],
@@ -327,7 +327,14 @@
                     "label": "FB 作品",
                     "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=fb&u=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100087316002386"
                   }
-                },
+                }
+              ],
+              "spacing": "sm"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
                 {
                   "type": "box",
                   "layout": "vertical",
@@ -359,14 +366,7 @@
                     "label": "看施工（TikTok）",
                     "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=tiktok&u=https%3A%2F%2Fwww.tiktok.com%2F%40woooyaya0715"
                   }
-                }
-              ],
-              "spacing": "sm"
-            },
-            {
-              "type": "box",
-              "layout": "horizontal",
-              "contents": [
+                },
                 {
                   "type": "box",
                   "layout": "vertical",
@@ -396,7 +396,7 @@
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1435&v=2026-11-24-1435#share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1435"
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1637&v=2026-11-24-1637#share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1637"
                   }
                 }
               ],
@@ -534,7 +534,14 @@
                     "label": "FB 作品",
                     "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=fb&u=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100087316002386"
                   }
-                },
+                }
+              ],
+              "spacing": "sm"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
                 {
                   "type": "box",
                   "layout": "vertical",
@@ -566,14 +573,7 @@
                     "label": "看施工（TikTok）",
                     "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=tiktok&u=https%3A%2F%2Fwww.tiktok.com%2F%40woooyaya0715"
                   }
-                }
-              ],
-              "spacing": "sm"
-            },
-            {
-              "type": "box",
-              "layout": "horizontal",
-              "contents": [
+                },
                 {
                   "type": "box",
                   "layout": "vertical",
@@ -603,7 +603,7 @@
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1435&v=2026-11-24-1435#share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1435"
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1637&v=2026-11-24-1637#share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1637"
                   }
                 }
               ],
@@ -741,7 +741,14 @@
                     "label": "FB 作品",
                     "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=fb&u=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100087316002386"
                   }
-                },
+                }
+              ],
+              "spacing": "sm"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
                 {
                   "type": "box",
                   "layout": "vertical",
@@ -773,14 +780,7 @@
                     "label": "看施工（TikTok）",
                     "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=tiktok&u=https%3A%2F%2Fwww.tiktok.com%2F%40woooyaya0715"
                   }
-                }
-              ],
-              "spacing": "sm"
-            },
-            {
-              "type": "box",
-              "layout": "horizontal",
-              "contents": [
+                },
                 {
                   "type": "box",
                   "layout": "vertical",
@@ -810,7 +810,7 @@
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1435&v=2026-11-24-1435#share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1435"
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1637&v=2026-11-24-1637#share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1637"
                   }
                 }
               ],
@@ -821,7 +821,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://glazier.cardtaiwan.com/img/card4-v1.jpg?v=2026-11-24-1435",
+          "url": "https://glazier.cardtaiwan.com/img/card4-v1.jpg?v=2026-11-24-1637",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover",
@@ -948,7 +948,14 @@
                     "label": "FB 作品",
                     "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=fb&u=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100087316002386"
                   }
-                },
+                }
+              ],
+              "spacing": "sm"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
                 {
                   "type": "box",
                   "layout": "vertical",
@@ -980,14 +987,7 @@
                     "label": "看施工（TikTok）",
                     "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=tiktok&u=https%3A%2F%2Fwww.tiktok.com%2F%40woooyaya0715"
                   }
-                }
-              ],
-              "spacing": "sm"
-            },
-            {
-              "type": "box",
-              "layout": "horizontal",
-              "contents": [
+                },
                 {
                   "type": "box",
                   "layout": "vertical",
@@ -1017,7 +1017,7 @@
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1435&v=2026-11-24-1435#share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1435"
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1637&v=2026-11-24-1637#share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1637"
                   }
                 }
               ],
@@ -1155,7 +1155,14 @@
                     "label": "FB 作品",
                     "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=fb&u=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100087316002386"
                   }
-                },
+                }
+              ],
+              "spacing": "sm"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
                 {
                   "type": "box",
                   "layout": "vertical",
@@ -1187,14 +1194,7 @@
                     "label": "看施工（TikTok）",
                     "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=tiktok&u=https%3A%2F%2Fwww.tiktok.com%2F%40woooyaya0715"
                   }
-                }
-              ],
-              "spacing": "sm"
-            },
-            {
-              "type": "box",
-              "layout": "horizontal",
-              "contents": [
+                },
                 {
                   "type": "box",
                   "layout": "vertical",
@@ -1224,7 +1224,7 @@
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1435&v=2026-11-24-1435#share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1435"
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1637&v=2026-11-24-1637#share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1637"
                   }
                 }
               ],
@@ -1362,7 +1362,14 @@
                     "label": "FB 作品",
                     "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=fb&u=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100087316002386"
                   }
-                },
+                }
+              ],
+              "spacing": "sm"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
                 {
                   "type": "box",
                   "layout": "vertical",
@@ -1394,14 +1401,7 @@
                     "label": "看施工（TikTok）",
                     "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=glazier&to=tiktok&u=https%3A%2F%2Fwww.tiktok.com%2F%40woooyaya0715"
                   }
-                }
-              ],
-              "spacing": "sm"
-            },
-            {
-              "type": "box",
-              "layout": "horizontal",
-              "contents": [
+                },
                 {
                   "type": "box",
                   "layout": "vertical",
@@ -1431,7 +1431,7 @@
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1435&v=2026-11-24-1435#share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1435"
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1637&v=2026-11-24-1637#share=1&c=glazier&src=https%3A%2F%2Fglazier.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-24-1637"
                   }
                 }
               ],
